@@ -1,0 +1,71 @@
+body{
+    background-image: url(rockPaperScissors.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
+.all1{
+    font-family: cursive;
+    font-size: 3rem;;
+    text-align: center;
+    color: aquamarine;
+}
+input{
+    width:50%;
+    height:50px;
+    font-size: 2rem;
+    font-family: cursive;
+    border:2px solid;
+    text-align: center;
+    background-color: aliceblue;
+}
+input:hover{
+    transition:350ms;
+    transform:scale(1.1);    
+}
+button{
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(169, 222, 238);
+    font-family: cursive;
+    font-size:1.2rem;
+}
+button:hover{
+    transition:350ms;
+    transform:scale(1.1);
+    background-color: aliceblue;
+}
+.all2{
+    font-family: cursive;
+    text-align: center;
+}
+h1{
+    font-size: 4.5rem;
+    color:aquamarine;
+}
+h2{
+    font-size:3rem;
+    color:antiquewhite;
+}
+.sectionAll{
+    border: 1px solid;
+    background-color: rgba(37, 36, 36, 0.61);
+    /* width: 100%; */
+}
+@media (min-width:380px) and (max-width:414px) {
+    h1{
+        font-size:2rem;
+    }
+    h2{
+        font-size:1.5rem;
+    }
+    button{
+        padding: 10px 20px 10px 20px;
+        font-size:1.2rem;
+    }
+    body{
+        background-size: cover;
+    }
+    .title{
+        font-size:2rem ;
+    }
+}
