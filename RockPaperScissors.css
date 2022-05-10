@@ -52,20 +52,25 @@ h2{
     /* width: 100%; */
 }
 @media (min-width:380px) and (max-width:414px) {
-    h1{
-        font-size:2rem;
+   .all2 h1{
+       font-size: 2rem;
+   }
+
+   .sectionAll{
+       padding-top: 2rem;
+   }
+
+   .all1 #title{
+       margin-top: 5rem;
+       font-size: 2rem;
+   }
+
+   .all2 h2{
+    font-size: 2rem;
     }
-    h2{
-        font-size:1.5rem;
-    }
-    button{
-        padding: 10px 20px 10px 20px;
-        font-size:1.2rem;
-    }
-    body{
-        background-size: cover;
-    }
-    .title{
-        font-size:2rem ;
+
+    .sectionAll{
+        border: 1px solid red;
+        padding-bottom: 8.3rem;
     }
 }
